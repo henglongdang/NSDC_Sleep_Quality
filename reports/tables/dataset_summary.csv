@@ -1,0 +1,2 @@
+raw_rows,cleaned_rows,known_participants,prediction_eligible_rows,prediction_eligible_participants,mean_observations_per_known_participant,wearable_sleep_duration_rows,resting_heart_rate_rows,hrv_rows
+632,632,45,530,45,13.688888888888888,288,140,56

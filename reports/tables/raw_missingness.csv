@@ -1,0 +1,23 @@
+source_column,missing_count,missing_percent
+Participant Anonymised ID,16,2.5316455696202533
+Date,1,0.15822784810126583
+"Day of the Study (Day 1, 2)",1,0.15822784810126583
+Caffeine Servings,1,0.15822784810126583
+Last Caffeine Time,343,54.27215189873418
+Exercise Minutes,2,0.31645569620253167
+Exercise Intensity,192,30.37974683544304
+Screen Time Before Bed (min),2,0.31645569620253167
+Study Hours,2,0.31645569620253167
+Class Hours,0,0.0
+Nap,13,2.0569620253164556
+Nap Minutes,43,6.80379746835443
+Last Meal Time,0,0.0
+Stress Level,0,0.0
+Planned Bedtime,2,0.31645569620253167
+Actual Bedtime,1,0.15822784810126583
+Wake Time,2,0.31645569620253167
+Sleep Quality,2,0.31645569620253167
+Times Woken,40,6.329113924050633
+Sleep Duration (hours),329,52.05696202531646
+Resting Heart Rate (bpm),477,75.4746835443038
+HRV (ms),576,91.13924050632912

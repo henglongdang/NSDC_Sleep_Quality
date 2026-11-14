@@ -1,0 +1,61 @@
+{
+  "raw_validation": {
+    "rows": 632,
+    "columns": 22,
+    "unique_participants_known_id": 47,
+    "rows_without_participant_id": 16,
+    "complete_duplicate_rows": 0,
+    "duplicate_participant_date_known_id": 35,
+    "duplicate_participant_study_day_known_id": 59,
+    "missing_cells": 2045
+  },
+  "cleaning_audit": {
+    "input_rows": 632,
+    "rows_with_known_participant": 616,
+    "rows_with_mapped_sleep_quality": 32,
+    "ambiguous_screen_entries": 14,
+    "bedtime_meridiem_corrections": 64,
+    "out_of_range_study_days": 15,
+    "duplicate_participant_date_rows": 70,
+    "prediction_eligible_rows": 530
+  },
+  "dataset_summary": {
+    "raw_rows": 632.0,
+    "cleaned_rows": 632.0,
+    "known_participants": 45.0,
+    "prediction_eligible_rows": 530.0,
+    "prediction_eligible_participants": 45.0,
+    "mean_observations_per_known_participant": 13.688888888888888,
+    "wearable_sleep_duration_rows": 288.0,
+    "resting_heart_rate_rows": 140.0,
+    "hrv_rows": 56.0
+  },
+  "icc": {
+    "icc": 0.43686917885200754,
+    "ci_low": 0.2683664197170559,
+    "ci_high": 0.5689786620050578,
+    "observations": 530,
+    "participants": 45,
+    "bootstrap_replicates": 500
+  },
+  "permutation_leakage_check": {
+    "permutations": 5,
+    "permuted_mae_mean": 1.7837425535605864,
+    "permuted_mae_sd": 0.05536923694913097
+  },
+  "numeric_target_sensitivity": {
+    "n": 175,
+    "mae": 1.34468462585034,
+    "rmse": 1.7222576907515232,
+    "r2": 0.3680764951552795,
+    "median_ae": 1.1390793650793647,
+    "spearman_r": 0.5625628970757145,
+    "spearman_p": 5.408264005125786e-16,
+    "within_1": 0.4228571428571429
+  },
+  "chronological_split": {
+    "training_rows": 339,
+    "test_rows": 183,
+    "participants": 40
+  }
+}

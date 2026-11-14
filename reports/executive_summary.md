@@ -1,0 +1,11 @@
+# Executive summary
+
+This project asked whether a student's daytime routines can predict that night's self-reported sleep quality. The analysis used 632 raw participant-day records from the NSDC pooled workbook. After retaining the raw data, documenting quality problems, and applying predeclared eligibility rules, the primary prediction analysis contained 530 participant-days from 45 standardized participant IDs.
+
+The main finding is about prediction context. Daytime behaviors did not generalize to students the model had never seen. In five-fold participant-grouped validation, the global-mean baseline had MAE 1.69, compared with 1.82 for a daytime Ridge model and 1.75 for daytime Extra Trees. A model should not be called useful for new students when it cannot improve on the simplest baseline.
+
+For students with earlier logs, sleep history was informative. In chronological testing on 183 later observations from 40 participants, a personalized Extra Trees model achieved MAE 1.30 and RMSE 1.69. The previous night's sleep-quality rating alone achieved MAE 1.31, and a prior participant mean achieved MAE 1.34. The best model therefore offers only a small improvement over a simple sleep-history baseline.
+
+This pattern fits the descriptive evidence. Sleep quality showed meaningful participant-level persistence, with ICC 0.44 (bootstrap 95% CI 0.27 to 0.57). Held-out permutation importance ranked prior three-day sleep quality, prior participant mean sleep quality, and previous-night sleep quality above same-day behavior fields. The project found small pooled associations between lower sleep quality and higher screen time or reported stress, but the retrospective within-person stress estimate was imprecise and compatible with no association.
+
+The data quality audit matters to interpretation. The raw workbook includes missing IDs, duplicate participant-date records, study days beyond 14, mixed response formats, a stress scale inconsistent with the stated 1-5 instrument, screen-time values above the stated limit, and selective wearable data. The analysis preserves these facts rather than hiding them. The results describe observational associations and model performance for this dataset. They do not show that changing a behavior will cause better or worse sleep.

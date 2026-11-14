@@ -1,0 +1,14 @@
+paths:
+  raw_data: data/raw/openProj_masterF26.xlsx
+  processed_data: data/processed/sleep_cleaned.csv
+  figures: reports/figures
+  tables: reports/tables
+  metrics: reports/tables/analysis_metrics.json
+
+analysis:
+  random_seed: 2026
+  minimum_history_days: 2
+  max_time_in_bed_hours: 16
+  valid_study_day_min: 1
+  valid_study_day_max: 14
+  group_cv_splits: 5

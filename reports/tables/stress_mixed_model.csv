@@ -1,0 +1,3 @@
+term,estimate,ci_low,ci_high,p_value,observations,participants,model
+stress_numeric_within_person_z,-0.08639364677303538,-0.25871595342693154,0.08592865988086079,0.3257913795676156,525,43,OLS with participant-clustered standard errors
+stress_between_person_z,-0.15975671202541236,-0.6074169745333546,0.28790355048252997,0.4842688524579625,525,43,OLS with participant-clustered standard errors

@@ -1,0 +1,9 @@
+flag,records_flagged
+Study day outside 1-14,15
+Duplicate participant-date record,70
+Implausible time in bed (<2 or >16 hours),5
+Screen time outside stated 0-60 range,79
+Stress outside stated 1-5 range,366
+Nap response inconsistent with nap minutes,0
+Exercise response inconsistent with duration,4
+Caffeine response inconsistent with time,24

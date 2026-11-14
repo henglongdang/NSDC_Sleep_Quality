@@ -1,0 +1,23 @@
+# Data files may contain participant-level records.
+data/raw/
+data/interim/
+data/processed/
+openProj_masterF26.xlsx
+reports/tables/final_model_predictions.csv
+
+# Local environments and notebook checkpoints.
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Local operating-system files.
+.DS_Store
+Thumbs.db
+
+# Build intermediates and validation receipts.
+work/
+.codex-finalizer/
+presentation/NSDC_Sleep_Analysis_v*.pptx
